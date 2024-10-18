@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "declarations.d.ts",
+    "context/appContext.js",
+    "components/authSheet.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.js"
+  ],
+  "extends": "expo/tsconfig.base"
+}
